@@ -11,7 +11,3 @@ Fetch Udemy Profile information
 | key | value | description |
 | -- | -- | -- |
 | USER | `string` | the Udemy user to fetch data from |
-
-## Deploying to Netlify and other platforms ☁️
-
-This lambda is written in TypeScript, therefore before deploying to other platform you will have to compile TypeScript yourself and push the JavaScript output. PRs are always welcome to automate this process. 🙂

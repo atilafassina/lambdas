@@ -1,6 +1,8 @@
 import { NowRequest, NowResponse } from '@vercel/node'
 import cheerio from 'cheerio'
 
+const QUARTER_DAY = 2150
+
 export default async (req: NowRequest, res: NowResponse) => {
   try {
     const udemyPage = await fetch(`https://www.udemy.com/user/${process.env.USER}/`)
@@ -21,7 +23,10 @@ export default async (req: NowRequest, res: NowResponse) => {
     const reviews = Number(
       reviewsWrapper('.udlite-heading-xl').text().replace(',', '')
     )
-    res.send({
+
+    res.setHeader('Cache-Control', `s-maxage=${QUARTER_DAY}, stale-while-revalidate`)
+
+    res.status(200).json({
       students,
       reviews,
     })
