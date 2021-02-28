@@ -1,0 +1,13 @@
+{
+  "name": "udemy-profile",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:atilafassina/lambda.git",
+  "author": {
+    "name": "Atila Fassina",
+    "email": "lambda@fassina.eu",
+    "url": "https://atila.io"
+  },
+  "license": "MIT",
+  "private": true
+}
