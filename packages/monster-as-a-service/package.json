@@ -11,7 +11,7 @@
   "license": "MIT",
   "private": true,
   "scripts": {
-    "build": "netlify-lambda build src",
+    "dist": "netlify-lambda build src",
     "ts-check": "tsc --noEmit --lib ES2015 ./src/*.ts"
   },
   "prettier": {
