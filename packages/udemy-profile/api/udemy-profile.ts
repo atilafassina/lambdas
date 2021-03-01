@@ -1,11 +1,12 @@
 import { NowRequest, NowResponse } from '@vercel/node'
 import cheerio from 'cheerio'
+import fetch from 'node-fetch'
 
 const QUARTER_DAY = 2150
 
 export default async (req: NowRequest, res: NowResponse) => {
+  const udemyPage = await fetch(`https://www.udemy.com/user/${process.env.USER}/`)
   try {
-    const udemyPage = await fetch(`https://www.udemy.com/user/${process.env.USER}/`)
     const domString = await udemyPage.text()
     const root = cheerio.load(domString)
 
@@ -30,9 +31,12 @@ export default async (req: NowRequest, res: NowResponse) => {
       students,
       reviews,
     })
+    return
+
   } catch (error) {
-    res.send({
+    res.status(500).json({
       error,
+      user: process.env.USER
     })
   }
 }
