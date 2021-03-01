@@ -1,0 +1,27 @@
+{
+  "name": "gh-repo-list",
+  "version": "1.0.0",
+  "description": "🔮 gh repo list",
+  "main": "index.js",
+  "scripts": {},
+  "prettier": {
+    "semicolon": false
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/atilafassina/lambda.git"
+  },
+  "author": {
+    "name": "Atila Fassina",
+    "email": "lambda@fassina.eu",
+    "url": "https://atila.io"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/atilafassina/lambda/issues"
+  },
+  "homepage": "https://github.com/atilafassina/lambda#readme",
+  "devDependencies": {
+    "@vercel/node": "^1.9.0"
+  }
+}
