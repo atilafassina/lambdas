@@ -1,5 +1,5 @@
+import type { NowRequest, NowResponse } from '@vercel/node'
 import fetch from 'node-fetch'
-import { NowRequest, NowResponse } from '@vercel/node'
 
 const TOKEN = process.env.YOUTUBE_TOKEN
 const CHANNEL = process.env.CHANNEL_ID
