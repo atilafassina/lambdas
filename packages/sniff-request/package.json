@@ -1,0 +1,29 @@
+{
+  "name": "sniff",
+  "version": "1.0.0",
+  "description": "checking what is in the request",
+  "main": "sniff.js",
+  "repository": "git@github.com:atilafassina/lambda.git",
+  "author": {
+    "name": "Atila Fassina",
+    "email": "atila@fassina.eu",
+    "url": "https://atila.io"
+  },
+  "license": "ISC",
+  "private": true,
+  "prettier": {
+    "semi": false,
+    "singleQuote": true
+  },
+  "dependencies": {
+    "@devoxa/ip-geolocation": "^1.0.0",
+    "@now/node": "^1.6.1",
+    "node-fetch": "^2.6.0",
+    "prettier": "^2.0.5",
+    "ua-parser-js": "^0.7.28"
+  },
+  "devDependencies": {
+    "@types/ua-parser-js": "^0.7.36",
+    "@vercel/node": "^1.9.0"
+  }
+}

@@ -856,6 +856,13 @@
     lodash "^4.17.19"
     to-fast-properties "^2.0.0"
 
+"@devoxa/ip-geolocation@^1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@devoxa/ip-geolocation/-/ip-geolocation-1.0.0.tgz#5ad0d02a920f38e26cfb3aabd2428df15214c545"
+  integrity sha512-jKkYOkTGVAMGG45WKfgnk6QZn7m48z1vInmHl5zkjEMplruDrdP4ySEjGE3DuT4/FHmHljKkejrW7XKN2N7ZAw==
+  dependencies:
+    maxmind "^4.1.3"
+
 "@nodelib/fs.scandir@2.1.4":
   version "2.1.4"
   resolved "https://registry.yarnpkg.com/@nodelib/fs.scandir/-/fs.scandir-2.1.4.tgz#d4b3549a5db5de2683e0c1071ab4f140904bbf69"
@@ -908,6 +915,11 @@
   version "14.14.31"
   resolved "https://registry.yarnpkg.com/@types/node/-/node-14.14.31.tgz#72286bd33d137aa0d152d47ec7c1762563d34055"
   integrity sha512-vFHy/ezP5qI0rFgJ7aQnjDXwAMrG0KqqIH7tQG5PPv3BWBayOPIQNBjVc/P6hhdZfMx51REc6tfDNXHUio893g==
+
+"@types/ua-parser-js@^0.7.36":
+  version "0.7.36"
+  resolved "https://registry.yarnpkg.com/@types/ua-parser-js/-/ua-parser-js-0.7.36.tgz#9bd0b47f26b5a3151be21ba4ce9f5fa457c5f190"
+  integrity sha512-N1rW+njavs70y2cApeIw1vLMYXRwfBy+7trgavGuuTfOd7j1Yh7QTRc/yqsPl6ncokt72ZXuxEU0PiCp9bSwNQ==
 
 "@vercel/node@^1.9.0":
   version "1.9.0"
@@ -2913,6 +2925,14 @@ map-visit@^1.0.0:
   dependencies:
     object-visit "^1.0.0"
 
+maxmind@^4.1.3:
+  version "4.3.2"
+  resolved "https://registry.yarnpkg.com/maxmind/-/maxmind-4.3.2.tgz#e11fcf96a0c3ecf96a78839e3b808ab769fa4e78"
+  integrity sha512-cZ4nsLeYbFWVbhkBU3VTPJ10SDCGAKQ8kGpuYh1AesN4NvMQGab+NIBqcReA4dxQqPjA/CM6e6mQGCusvUSp6Q==
+  dependencies:
+    mmdb-lib "1.3.0"
+    tiny-lru "7.0.6"
+
 md5.js@^1.3.4:
   version "1.3.5"
   resolved "https://registry.yarnpkg.com/md5.js/-/md5.js-1.3.5.tgz#b5d07b8e3216e3e27cd728d72f70d1e6a342005f"
@@ -3062,6 +3082,11 @@ mkdirp@^0.5.1, mkdirp@^0.5.3:
   integrity sha512-NKmAlESf6jMGym1++R0Ra7wvhV+wFW63FaSOFPwRahvea0gMUcGUhVeAg/0BC0wiv9ih5NYPB1Wn1UEI1/L+xQ==
   dependencies:
     minimist "^1.2.5"
+
+mmdb-lib@1.3.0:
+  version "1.3.0"
+  resolved "https://registry.yarnpkg.com/mmdb-lib/-/mmdb-lib-1.3.0.tgz#9e19feab91063636546bb28a44d728e283a24ee4"
+  integrity sha512-KrRrAuC+X9ZkkPZNsqgHUGrop28vcmqISILyUXG0xOYt82ObU9d9XowVsjOVOr5CegyjrkmxEN5ut9r576vq2g==
 
 move-concurrently@^1.0.1:
   version "1.0.1"
@@ -4049,6 +4074,11 @@ timers-browserify@^2.0.4:
   dependencies:
     setimmediate "^1.0.4"
 
+tiny-lru@7.0.6:
+  version "7.0.6"
+  resolved "https://registry.yarnpkg.com/tiny-lru/-/tiny-lru-7.0.6.tgz#b0c3cdede1e5882aa2d1ae21cb2ceccf2a331f24"
+  integrity sha512-zNYO0Kvgn5rXzWpL0y3RS09sMK67eGaQj9805jlK9G6pSadfriTczzLHFXa/xcW4mIRfmlB9HyQ/+SgL0V1uow==
+
 to-arraybuffer@^1.0.0:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/to-arraybuffer/-/to-arraybuffer-1.0.1.tgz#7d229b1fcc637e466ca081180836a7aabff83f43"
@@ -4144,6 +4174,11 @@ typescript@^3.9.7:
   version "3.9.9"
   resolved "https://registry.yarnpkg.com/typescript/-/typescript-3.9.9.tgz#e69905c54bc0681d0518bd4d587cc6f2d0b1a674"
   integrity sha512-kdMjTiekY+z/ubJCATUPlRDl39vXYiMV9iyeMuEuXZh2we6zz80uovNN2WlAxmmdE/Z/YQe+EbOEXB5RHEED3w==
+
+ua-parser-js@^0.7.28:
+  version "0.7.28"
+  resolved "https://registry.yarnpkg.com/ua-parser-js/-/ua-parser-js-0.7.28.tgz#8ba04e653f35ce210239c64661685bf9121dec31"
+  integrity sha512-6Gurc1n//gjp9eQNXjD9O3M/sMwVtN5S8Lv9bvOYBfKfDNiIIhqiyi01vMBO45u4zkDE420w/e0se7Vs+sIg+g==
 
 unicode-canonical-property-names-ecmascript@^1.0.4:
   version "1.0.4"
