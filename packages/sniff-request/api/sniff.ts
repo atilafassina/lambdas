@@ -19,7 +19,7 @@ export default async (req: VercelRequest, res: VercelResponse) => {
 
   res.status(200).send({
     ...UAParser(req.headers['user-agent']),
-    location,
+    ...location,
     // country: req.headers['x-vercel-ip-country-region'], // Enterprise or Pro plan on Vercel
   })
 }
